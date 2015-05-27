@@ -1,6 +1,7 @@
 # DSSG Bootcamp Exercise
-# Project Inspector Gadget
-# Team BlueBottle
+**Project Inspector Gadget**
+
+**Team BlueBottle**
 
 ## Team Members
 - Benedict
