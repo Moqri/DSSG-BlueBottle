@@ -3,5 +3,5 @@ Team Blue Bottle
 
 
 # Team Members
-With Benedict.
-And Michael.
+- Benedict
+- Michael
