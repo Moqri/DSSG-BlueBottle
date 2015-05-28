@@ -1,0 +1,7 @@
+violation_code 
+* 757 different violation codes
+
+violation_description
+* Each violation description matches 1:1 with a violation code
+
+
