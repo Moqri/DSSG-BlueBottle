@@ -9,9 +9,12 @@ violation_status_date           datetime64[ns]
 ## Violation descriptions
 
 violation_code 
-* 757 different violation codes
+* 757 unique codes
 
 violation_description
+* 724 unique descriptions
+
+
 * Each violation description matches 1:1 with a violation code
 
 
@@ -27,6 +30,8 @@ violation_inspector_comments            object
 * Free form text entry
 
 violation_ordinance                     object
+* 716 unique ordinances
+
 inspector_id                            object
 inspection_number                        int64
 inspection_status                       object
