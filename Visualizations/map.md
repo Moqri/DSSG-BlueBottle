@@ -1,1 +1,1 @@
-[Map (interactive vizualiation)](https://public.tableau.com/profile/mahdi.moqri#!/vizhome/building-violation/Sheet1)
+[Map (interactive vizualiation)](https://public.tableau.com/profile/publish/building-violation_2/Story1#!/publish-confirm)
