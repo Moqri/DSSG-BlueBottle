@@ -1,3 +1,13 @@
+
+
+
+## Dates
+violation_last_modified_date    datetime64[ns]
+violation_date                  datetime64[ns]
+violation_status_date           datetime64[ns]
+
+## Violation descriptions
+
 violation_code 
 * 757 different violation codes
 
@@ -5,3 +15,26 @@ violation_description
 * Each violation description matches 1:1 with a violation code
 
 
+violation_status                        object
+* OPEN        36355
+* COMPLIED    13500
+* NO ENTRY      145
+
+violation_location                      object
+* An ugly mess of a string variable. Not planning to use for now.
+
+violation_inspector_comments            object
+* Free form text entry
+
+violation_ordinance                     object
+inspector_id                            object
+inspection_number                        int64
+inspection_status                       object
+inspection_waived                       object
+inspection_category                     object
+department_bureau                       object
+address                                 object
+property_group                           int64
+latitude                               float64
+longitude                              float64
+location                                object
