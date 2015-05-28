@@ -14,4 +14,4 @@
   As a result, inspections (and their associated violations), permits and complaints related to a single property could have different addresses. 
   This problem can be reconciled by using Property Group. 
   All point and range addresses for a property are assigned the same Property Group key. 
-  - Frequency: Data is updated daily Related Applications: Building Data Warehouse
+  - Frequency: Data is updated daily.
