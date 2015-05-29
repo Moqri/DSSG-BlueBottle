@@ -6,17 +6,23 @@ violation_last_modified_date    datetime64[ns]
 violation_date                  datetime64[ns]
 violation_status_date           datetime64[ns]
 
-## Violation descriptions
+## Violation codes
+
+**See list_of_violations.csv for a dictionary of mappings.**
 
 violation_code 
 * 757 unique codes
 
 violation_description
-* 724 unique descriptions
+* 725 unique descriptions
+* Each violation description matches m:1 with a violation code
+
+violation_ordinance                     object
+* 717 unique ordinances
+* Each ordinance matches m:1 with a violation code
 
 
-* Each violation description matches 1:1 with a violation code
-
+## Other violation info
 
 violation_status                        object
 * OPEN        36355
@@ -24,15 +30,18 @@ violation_status                        object
 * NO ENTRY      145
 
 violation_location                      object
-* An ugly mess of a string variable. Not planning to use for now.
+* Ususally missing: 32484/50000 missing values
+* An ugly mess of a string variable.
 
 violation_inspector_comments            object
 * Free form text entry
+* Sometimes missing: 5295/50000
 
-violation_ordinance                     object
-* 716 unique ordinances
+## Inspector info
 
 inspector_id                            object
+* 273 unique inspector IDs
+
 inspection_number                        int64
 inspection_status                       object
 inspection_waived                       object
